@@ -38,7 +38,7 @@ header {
 }
 
 #column-2 {
-  background-color: darkmagenta;
+  background-color: darkmagenta; 
 }
 
 #column-3 {
@@ -68,19 +68,23 @@ footer {
   }
 
   #column-2 {
-    background-color: aqua;
+    background-color: green;
   }
 
   #column-3 {
     background-color: blanchedalmond;
+    width: 100%;
   }
+
+  .col-3 {
+    width: 50%;
+  }
+  
 
   footer {
     background-color: burlywood;
-  }
-  
+    }
 }
-
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -98,10 +102,14 @@ footer {
 
   #column-3 {
     background-color: lightcoral;
+    width: 33.3%;
   }
 
   footer {
     background-color: lightpink;
   }
    
+.col-3 {
+  width: 33.3%;
+}
 }
